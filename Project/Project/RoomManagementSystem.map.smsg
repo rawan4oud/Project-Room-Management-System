@@ -1,2 +1,0 @@
-Warning (10268): Verilog HDL information at RoomManagementSystem.v(271): always construct contains both blocking and non-blocking assignments
-Warning (10268): Verilog HDL information at bcd_7seg.v(10): always construct contains both blocking and non-blocking assignments
