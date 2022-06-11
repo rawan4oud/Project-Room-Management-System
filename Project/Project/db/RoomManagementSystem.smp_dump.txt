@@ -1,0 +1,32 @@
+
+State Machine - |RoomManagementSystem|state
+Name state.ID_NOT_EXISTS state.ID_EXISTS state.CHECK_NEW_ID state.CONFIRM_CAP state.ADD_ID state.OVERRIDE_CAP state.ADMIN_MODE2 state.ADMIN_MODE state.CHECK_ID_ADMIN state.ROOM_FULL state.VALID_ID state.INVALID_ID state.CHECK_ID state.KEYBOARD_LISTENING state.INITIAL_STATE 
+state.INITIAL_STATE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.KEYBOARD_LISTENING 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.CHECK_ID 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.INVALID_ID 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.VALID_ID 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.ROOM_FULL 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.CHECK_ID_ADMIN 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.ADMIN_MODE 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.ADMIN_MODE2 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.OVERRIDE_CAP 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.ADD_ID 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.CONFIRM_CAP 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.CHECK_NEW_ID 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.ID_EXISTS 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.ID_NOT_EXISTS 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |RoomManagementSystem|LCD_TEST:lcd_inst1|mLCD_ST
+Name mLCD_ST.000011 mLCD_ST.000010 mLCD_ST.000001 mLCD_ST.000000 
+mLCD_ST.000000 0 0 0 0 
+mLCD_ST.000001 0 0 1 1 
+mLCD_ST.000010 0 1 0 1 
+mLCD_ST.000011 1 0 0 1 
+
+State Machine - |RoomManagementSystem|LCD_TEST:lcd_inst1|LCD_Controller:u0|ST
+Name ST.11 ST.10 ST.01 ST.00 
+ST.00 0 0 0 0 
+ST.01 0 0 1 1 
+ST.10 0 1 0 1 
+ST.11 1 0 0 1 
