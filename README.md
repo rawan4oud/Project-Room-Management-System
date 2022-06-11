@@ -6,7 +6,7 @@ This system is an implementation to how a door lock system would function. It ha
 
 ## Hardware Used
 - Altera DE2-115 FPGA board
-- PS2 keyboard
+- PS/2 keyboard
 
 ## Software Used
 - Altera Quartus II Version 9.1 Web Edition
