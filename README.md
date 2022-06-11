@@ -1,4 +1,4 @@
-# Project Room Management System
+# 🔒 Project Room Management System 🔒
 This repo contains an implementation of a project room management system using *Verilog* on an *Altera DE2-115* board.
 
 ## Description
@@ -33,7 +33,7 @@ The project was tackled through the use of a *Finite State Machine*.
 The relevant statements displayed on the LCD and LEDs toggling patterns is established (further elaborated in the report).
 
 ## Administrator Mode Features
-- An admin which is part of originally two registered admins would enter their ID, after pressing *Alt+Ctrl+A* simultaneously on the keyboard.
+- An admin which is part of originally two registered admins would enter their ID, after simultaneously pressing *Alt+Ctrl+A* on the keyboard.
   - If the user's ID is a valid admin ID, they are allowed access into admin mode.
   - Else, the system would go back to normal mode.
 - After five seconds of entering the admin mode, the admin can choose two options.
@@ -41,6 +41,9 @@ The relevant statements displayed on the LCD and LEDs toggling patterns is estab
   2. Add new user ID.
 - If the admin presses 1 on the keyboard, they are prompted to enter the desired room capacity number. 
   - Once entered, they are asked to confirm this number. The system then returns to normal mode.
-- If the admin pressed 2, they are prompted to enter the new user's ID (made of nine digits).
+- If the admin presses 2, they are prompted to enter the new user's ID (made of nine digits).
   - If the ID already exists, it prompts the admin to insert another one.
   - Else, it adds this new ID and returns to normal mode.
+ 
+ The relevant statements displayed on the LCD and LEDs toggling patterns is established (further elaborated in the report).
+
