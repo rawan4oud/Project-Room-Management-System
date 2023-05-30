@@ -19,7 +19,7 @@ The components of the FPGA used were:
 - Switches
 
 ## Design 
-The project was tackled through the use of a *Finite State Machine*.
+*Finite State Machine* Design:
 ![fsmproject](https://user-images.githubusercontent.com/92987443/173163881-73d1bd1b-bac1-4b37-808d-7f8d1bd666ed.png)
 
 
